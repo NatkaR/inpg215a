@@ -1,0 +1,51 @@
+#include<stdio.h> 
+#include<conio.h> 
+char sum
+a
+ (char a, char b) 
+{ 
+            char            
+c;            
+c = a||b; 
+            return            
+c;            
+} 
+char neg (char a) 
+{ 
+            a=!a;            
+            return            
+a;            
+} 
+char iloczyn (char a,char b) 
+{ 
+            char            
+c;            
+            c=a&&b;            
+            printf("iloczyn            
+a&&b=%d&&%d=%d\n",a,b,c);            
+            return            
+c;            
+} 
+void void m
+a
+in (void) 
+{ 
+            char            
+c;            
+            clrscr();            
+            c=sum
+a
+(1,1);            
+printf("sum
+a
+ logiczna a||b=%d\n",c); 
+            c=neg(1);            
+            printf("negacja            
+a=!a=%d\n",c);            
+            c=iloczyn(1,1            
+);            
+//          printf
+("iloczyn          
+a&&b=%d\n",c);          
+            getch();            
+} 

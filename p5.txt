@@ -1,0 +1,23 @@
+#include <stdio.h> 
+#include <conio.h> 
+void m
+a
+in() 
+{ 
+int i; 
+printf("Liczby parzyste:   Liczby nieparzyste: \n"); 
+f
+o
+r (i=0; i<10; i++) 
+if (i%2 == 0) 
+                                    printf
+("%d",            
+i);            
+  e
+l
+s
+e
+                                    printf("%20d\n",            
+i);            
+            getch            
+();            

@@ -1,0 +1,38 @@
+#include <stdio.h> 
+#include <conio.h> 
+/* funkcja 
+druk_bin()
+ drukuje podany argum
+ent dziesietny typu  int  - binarnie. */ 
+void druk_bin(int x)  
+{ 
+int n;   
+for(n=15; n>=0; n--) ((x>>n)&1) ? putchar('
+1'
+) : putchar('
+0'
+);  
+} 
+void m
+a
+in() 
+{ 
+signed char  ch; 
+int          x; 
+unsigned int y; 
+ch = 0xFF; 
+x = 0xFFFF; 
+y = 0xFFFF; 
+printf
+("\nDziesietnie ze znakiem
+ 0xFF   to:  %d", ch); 
+printf("\nDziesietnie ze znakiem
+\
+n 0xFFFF to:  %d a Binarnie: ", x); 
+druk_bin(0xFFFF); 
+printf("\nDziesietnie bez znaku  0xFFFF  to:     %u", y); 
+printf("\nDzies.: 12345  to Hex: 0x%X i Binarnie: ", 12345); 
+druk_bin(12345); 
+printf("\nDzies: -12345  to Hex: 0x%X i Binarnie: ", -12345); 
+druk_bin(-12345); 
+getch (); 

@@ -1,0 +1,16 @@
+#include <stdio.h> 
+#include <conio.h> 
+void m
+a
+in() 
+{ 
+            int            
+i;            
+printf("Liczby calkowite podzielne i przez 2, i przez  3\n"); 
+printf("(w zakresie od 0 do 100):\n"); 
+for (i=0; i<=100; i++) 
+if ((i%2 == 0) && (i%3 == 0)) 
+printf
+("   %d\n", i); 
+            getch            
+();            
